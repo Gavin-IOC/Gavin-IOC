@@ -5,6 +5,16 @@
    z-index: 2;
 }
 
+.jumbotron { 
+    background-color: #f4511e !important; /* Orange */
+    color: #ffffff !important;
+    width: 100%;
+}
+
+.row {
+	padding: 30px 30px;
+}
+
 .container-fluid {
     padding: 10px 10px;
 }
@@ -70,11 +80,6 @@
 
 .dropdown {
 	color: white;
-}
-
-.jumbotron {
-	height: 0px;
-	text-align: center;
 }
 
 .item {
