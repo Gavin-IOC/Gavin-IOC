@@ -230,6 +230,7 @@ header {
     color: #fff
 }
 header .intro-text {
+    opacity: 0;
     z-index:3;
     padding-top: 100px;
     padding-bottom: 50px
@@ -254,8 +255,8 @@ header .intro-text .intro-heading {
 @media (min-width: 768px) {
     header .intro-text {
         z-index:3;
-        padding-top: 300px;
-        padding-bottom: 200px
+        padding-top: 30vh;
+        padding-bottom: 20vh;
     }
     header .intro-text .intro-lead-in {
         z-index:3;
@@ -740,7 +741,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 757px;
+    height: 85vh;
     overflow: hidden;
 }
 
@@ -764,7 +765,7 @@ header .intro .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
-    line-height: 22px;
+    line-height: 24px;
     margin-bottom: 25px
 }
 header .intro .intro-heading {
@@ -779,15 +780,15 @@ header .intro .intro-heading {
 @media (min-width: 768px) {
     header .intro {
         z-index:3;
-        padding-top: 300px;
-        padding-bottom: 200px
+        padding-top: 30vh;
+        padding-bottom: 20vh;
     }
     header .intro .intro-lead-in {
         z-index:3;
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 40px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 40px;
         margin-bottom: 25px
     }
     header .intro .intro-heading {
@@ -797,7 +798,7 @@ header .intro .intro-heading {
         font-weight: 700;
         font-size: 75px;
         line-height: 75px;
-        margin-bottom: 50px
+        margin-bottom: 30px
     }
 }
 
@@ -807,7 +808,7 @@ header .intro .intro-heading {
 }
 
 #searchbar {
-    height: 300px;
+    height: 15vh;
     background: black;
     width: 100%;
 }
@@ -863,4 +864,9 @@ header .intro .intro-heading {
 .flip .card .back {
     -webkit-transform: rotatey(-180deg);
     transform: rotatey(-180deg);
+}
+
+.service-img {
+    width: 112px;
+    height: 112px;
 }
