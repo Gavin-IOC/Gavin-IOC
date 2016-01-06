@@ -802,7 +802,7 @@ header .intro .intro-heading {
     }
 }
 
-#side {
+.side {
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -869,4 +869,139 @@ header .intro .intro-heading {
 .service-img {
     width: 112px;
     height: 112px;
+}
+
+
+/*SIDEBAR/TOPBAR*/
+
+.sidebar-container {
+    display: inline-block !important;
+    position: fixed;
+    z-index: 1041;
+    width: 100%;
+    height: 40vh;
+    background: black;
+    -webkit-transform: translateY(-280px);
+    transform: translateY(-280px);
+    -webkit-transition: all 0.3s;
+}
+
+.sidebar-container.sidebar-active {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+
+}
+
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+    height: 100%;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    background: rgba(240,95,64,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption { 
+        opacity: 0;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+
+.back .portfolio-box-caption {
+    opacity: 1;
+}
+
+.img-circle {
+    height:100%;
+}
+
+#bridge {
+    color: white;
+    height: 60vh;
+    padding-top: 17vh;
+    background-image:url(../img/jumbo.jpg);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+
+.full {
+    width:100%;
+    height:100%;
+}
+
+#serve {
+    height: auto;
+}
+
+#serve1 {
+    height: 181px;
+}
+
+#serve2 {
+    height: 200px;
+}
+
+#serve3 {
+    height: 235px;
 }
