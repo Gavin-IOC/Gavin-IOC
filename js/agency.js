@@ -25,6 +25,10 @@ $('.flip').click(function(){
     $(".sidebar-container").toggleClass("sidebar-active");
   });
 
+  $("#pulldownbutt").click(function() {
+    $(".sidebar-container").removeClass("sidebar-active");
+  });
+
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({

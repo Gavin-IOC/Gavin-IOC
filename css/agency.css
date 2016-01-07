@@ -556,7 +556,7 @@ aside.clients img {
 }
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat
 }
@@ -887,11 +887,36 @@ header .intro .intro-heading {
 }
 
 .sidebar-container.sidebar-active {
-    -webkit-transform: translateY(-100px);
+    -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
     -o-transform: translateY(0px);
-    transform: translateY(-100px);
+    transform: translateY(0px);
+}
 
+.lead-in {
+    z-index:3;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    color: white;
+}
+.heading {
+    z-index:3;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+#pulldownbutt {
+    text-align: center;
+    margin: 0px auto;
 }
 
 
@@ -1037,4 +1062,17 @@ header .intro .intro-heading {
 
 .navbar-fixed-top {
     position: relative;
+}
+
+#wider-cities { 
+    max-width: 800px !important;
+}
+
+
+.btn-header {
+    background: transparent;
+    border-color: white;
+    transition: .3s;
+    font-size: 16px;
+    padding: 10px;
 }
