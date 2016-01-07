@@ -22,20 +22,14 @@ $('.flip').click(function(){
 
 //Implement the showing and hiding of the sidebar when the user clicks on #sidebar-button here:
   $("#sidebar-button").click(function() {
-    $(".sidebar-container").toggleClass("sidebar-active")
-    
-  })
+    $(".sidebar-container").toggleClass("sidebar-active");
+  });
 
-  $(".index").click(function() {
-    if ($(".sidebar-container").hasClass("sidebar-active")) {
-      $(".sidebar-container").removeClass("sidebar-active");
-    }
-  })
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {

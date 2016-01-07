@@ -248,7 +248,7 @@ header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
     margin-bottom: 25px
 }
@@ -262,8 +262,8 @@ header .intro-text .intro-heading {
         z-index:3;
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 20px;
+        line-height: 20px;
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
@@ -271,7 +271,7 @@ header .intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 75px;
+        font-size: 45px;
         line-height: 75px;
         margin-bottom: 50px
     }
@@ -764,7 +764,7 @@ header .intro .intro-lead-in {
     z-index:3;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 24px;
     margin-bottom: 25px
 }
@@ -773,7 +773,7 @@ header .intro .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
     margin-bottom: 25px
 }
@@ -787,8 +787,8 @@ header .intro .intro-heading {
         z-index:3;
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 22px;
+        line-height: 30px;
         margin-bottom: 25px
     }
     header .intro .intro-heading {
@@ -796,8 +796,8 @@ header .intro .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 75px;
-        line-height: 75px;
+        font-size: 40px;
+        line-height: 40px;
         margin-bottom: 30px
     }
 }
@@ -876,21 +876,21 @@ header .intro .intro-heading {
 
 .sidebar-container {
     display: inline-block !important;
-    position: fixed;
+    position: absolute;
     z-index: 1041;
     width: 100%;
-    height: 40vh;
+    height: 400px;
     background: black;
-    -webkit-transform: translateY(-280px);
-    transform: translateY(-280px);
+    -webkit-transform: translateY(-400px);
+    transform: translateY(-400px);
     -webkit-transition: all 0.3s;
 }
 
 .sidebar-container.sidebar-active {
-    -webkit-transform: translateY(0px);
+    -webkit-transform: translateY(-100px);
     -moz-transform: translateY(0px);
     -o-transform: translateY(0px);
-    transform: translateY(0px);
+    transform: translateY(-100px);
 
 }
 
@@ -974,6 +974,21 @@ header .intro .intro-heading {
     color: white;
     height: 60vh;
     padding-top: 17vh;
+    background-image:url(../img/icon3.jpg);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+
+#connect {
+    color: white;
+    height: 60vh;
+    padding-top: 17vh;
     background-image:url(../img/jumbo.jpg);
     background-repeat: none;
     background-attachment: scroll;
@@ -999,9 +1014,15 @@ header .intro .intro-heading {
 }
 
 #serve2 {
-    height: 200px;
+    height: 215px;
 }
 
 #serve3 {
-    height: 235px;
+    height: 239px;
+}
+
+.logo-pic {
+    width: 75px;
+    position: relative;
+    top: -15px;
 }
