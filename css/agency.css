@@ -218,6 +218,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
+    height: 85vh;
     /*background-image: url(../img/header-bg.jpg);*/
     background-repeat: none;
     background-attachment: scroll;
@@ -277,7 +278,7 @@ header .intro-text .intro-heading {
     }
 }
 section {
-    padding: 100px 0
+    padding: 0px 0
 }
 section h2.section-heading {
     font-size: 40px;
@@ -294,7 +295,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0
+        padding: 20px 0
     }
 }
 .service-heading {
@@ -810,6 +811,7 @@ header .intro .intro-heading {
 #searchbar {
     height: 15vh;
     background: black;
+    opacity: .5;
     width: 100%;
 }
 
@@ -917,6 +919,8 @@ header .intro .intro-heading {
 #pulldownbutt {
     text-align: center;
     margin: 0px auto;
+    font-size: 15px;
+    padding: 15px;
 }
 
 
@@ -1052,14 +1056,6 @@ header .intro .intro-heading {
     top: -15px;
 }
 
-#sidebar-button {
-    float: right;
-}
-
-#howbutton {
-    float: left;
-}
-
 .navbar-fixed-top {
     position: relative;
 }
@@ -1075,4 +1071,35 @@ header .intro .intro-heading {
     transition: .3s;
     font-size: 16px;
     padding: 10px;
+}
+
+#about {
+    padding-bottom: 250px;
+}
+
+@media(max-width:768px) {
+    .lead-in {
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 16px;
+    }
+    #pulldownbutt {
+        font-size: 12px;
+    }
+    .logo-pic {
+        display: none;
+        opacity: 0;
+        z-index: -3;
+    }
+}
+
+@media(min-width: 1200px) {
+    #sidebar-button {
+    float: right;
+}
+
+#howbutton {
+    float: left;
+}
 }
