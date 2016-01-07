@@ -789,7 +789,7 @@ header .intro .intro-heading {
         font-style: italic;
         font-size: 22px;
         line-height: 30px;
-        margin-bottom: 25px
+        margin-bottom: 40px
     }
     header .intro .intro-heading {
         z-index:3;
@@ -1022,7 +1022,19 @@ header .intro .intro-heading {
 }
 
 .logo-pic {
-    width: 75px;
+    width: 150px;
     position: relative;
     top: -15px;
+}
+
+#sidebar-button {
+    float: right;
+}
+
+#howbutton {
+    float: left;
+}
+
+.navbar-fixed-top {
+    position: relative;
 }
