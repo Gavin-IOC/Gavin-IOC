@@ -1166,19 +1166,17 @@ section h3.section-subheading {
     text-align: left;
 }
 
-
-
 #arrow {
-    display: none;
-    opacity: 0;
-    width: 0px;
-    position: absolute;
-}
-
-@media(min-width:1200px) {
-    #arrow {
     position: absolute;
     left: 200px;
     top: -5px;
+}
+
+
+
+@media(max-width: 1200px) {
+    #arrow {
+        display:none;
+        width: 0px;
     }
 }
