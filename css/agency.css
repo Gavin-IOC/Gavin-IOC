@@ -825,7 +825,7 @@ header .intro .intro-heading {
     padding: 30px;
     margin-top: 100px;
     color: white !important;
-    background:url(../img/icon3.jpg);
+    background:url(../img/problems.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -974,7 +974,8 @@ header .intro .intro-heading {
     text-align: center;
     color: #fff;
     opacity: 1;
-    background: rgba(240,95,64,.9);
+    background: rgba(0, 0, 0, .8);
+    /*background: rgba(240,95,64,.9);*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
