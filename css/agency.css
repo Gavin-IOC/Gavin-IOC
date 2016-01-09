@@ -758,16 +758,16 @@ header .intro {
     left: 0px;
     width: 100%;
     z-index:3;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 50px
 }
 header .intro .intro-lead-in {
     z-index:3;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 25px
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 15px
 }
 header .intro .intro-heading {
     z-index:3;
@@ -775,7 +775,7 @@ header .intro .intro-heading {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
-    line-height: 50px;
+    line-height: 30px;
     margin-bottom: 10px
 }
 @media (min-width: 768px) {
@@ -947,6 +947,15 @@ header .intro .intro-heading {
     padding: 15px;
 }
 
+#howbutton {
+    display: none;
+}
+
+@media(min-width:768px) {
+    #howbutton {
+        display: block;
+    }
+}
 
 .portfolio-box {
     display: block;
@@ -1122,11 +1131,12 @@ header .intro .intro-heading {
     #sidebar-button {
         float: right;
     }
+    #howbutton {
+        float: left;
+    }
 }
 
-#howbutton {
-    float: left;
-}
+
 
 #about {
     margin-top: -70px;
@@ -1167,5 +1177,23 @@ section h3.section-subheading {
     #arrow {
         display:none;
         width: 0px;
+    }
+}
+
+@media(max-width: 768px) {
+    header {
+        height: 45vh;
+    }
+
+    #about {
+        padding-bottom: 50px;
+    }
+
+    .back-font {
+        font-size: 13.5px;
+    }
+
+    section {
+        padding: 15px 0;
     }
 }
