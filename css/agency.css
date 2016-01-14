@@ -788,7 +788,7 @@ header .intro .intro-heading {
         z-index:3;
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 30px;
         margin-bottom: 20px
     }
@@ -823,7 +823,6 @@ header .intro .intro-heading {
 
 #better {
     padding: 30px;
-    margin-top: 100px;
     color: white !important;
     background:url(../img/problems.jpg);
     background-repeat: none;
@@ -1103,7 +1102,7 @@ header .intro .intro-heading {
     background: transparent;
     border-color: white;
     transition: .3s;
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px;
 }
 
@@ -1201,9 +1200,4 @@ section h3.section-subheading {
 
 .white-text {
     color: white !important;
-}
-
-#lets-button {
-    margin-top: 40px;
-    margin-bottom: -40px;
 }
