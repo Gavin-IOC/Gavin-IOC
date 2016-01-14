@@ -823,6 +823,7 @@ header .intro .intro-heading {
 
 #better {
     padding: 30px;
+    margin-top: 80px;
     color: white !important;
     background:url(../img/problems.jpg);
     background-repeat: none;
@@ -1200,4 +1201,14 @@ section h3.section-subheading {
 
 .white-text {
     color: white !important;
+}
+
+#lets-button {
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+#no-padding {
+    padding-right: 0px;
+    padding-left: 0px;
 }
