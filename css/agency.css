@@ -1198,3 +1198,12 @@ section h3.section-subheading {
     text-align: center;
 
 }
+
+.white-text {
+    color: white !important;
+}
+
+#lets-button {
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
