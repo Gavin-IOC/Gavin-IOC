@@ -788,7 +788,7 @@ header .intro .intro-heading {
         z-index:3;
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 30px;
         margin-bottom: 20px
     }
@@ -1103,8 +1103,8 @@ header .intro .intro-heading {
     background: transparent;
     border-color: white;
     transition: .3s;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 8px;
 }
 
 #about {
