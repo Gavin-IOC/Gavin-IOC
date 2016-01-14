@@ -747,6 +747,15 @@ body {
     overflow: hidden;
 }
 
+@media(max-width:768px) {
+    #myCarousel {
+        height: 35vh;
+    }
+    .navbar-default {
+        background-color: transparent;
+    }
+}
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
     line-height: 1;
     width: 100%;
@@ -1171,7 +1180,7 @@ section h3.section-subheading {
 
 @media(max-width: 768px) {
     header {
-        height: 45vh;
+        height: 20vh;
     }
 
     #about {
@@ -1235,4 +1244,10 @@ footer {
 
 #footer-space {
     margin-top: 35px;
+}
+
+@media(max-width: 768px) {
+    .footernav {
+        margin-bottom: 50px;
+    }
 }
