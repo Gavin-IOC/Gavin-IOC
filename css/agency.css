@@ -218,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
-    height: 72vh;
+    height: 68vh;
     /*background-image: url(../img/header-bg.jpg);*/
     background-repeat: none;
     background-attachment: scroll;
@@ -1109,6 +1109,7 @@ header .intro .intro-heading {
 
 #about {
     padding-bottom: 200px;
+    padding-top: 40px;
 }
 
 @media(max-width:768px) {
