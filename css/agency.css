@@ -1187,7 +1187,7 @@ section h3.section-subheading {
 }
 
 #service-container {
-    background-image: url(../img/services.jpg);*/
+    background-image: url(../img/services.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -1211,4 +1211,8 @@ section h3.section-subheading {
 #no-padding {
     padding-right: 0px;
     padding-left: 0px;
+}
+
+#service-title {
+    padding-top: 20px;
 }
