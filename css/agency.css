@@ -1216,3 +1216,7 @@ section h3.section-subheading {
 #service-title {
     padding-top: 20px;
 }
+
+.card {
+    cursor: pointer;
+}
